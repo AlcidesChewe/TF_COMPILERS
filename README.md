@@ -65,7 +65,7 @@ Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos t�
 
 ## Resultados:
 
-[Code Visual Studio](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a3d5784.png?ex=65747df3&is=656208f3&hm=c9d9b364c8489f0b502a66eca964a81b372852d1b8f9bce474d267ab6eb7ff23&)
+![code vs](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a
 
 ### Desarrollo de la Base de Código
 - **Estructura del Proyecto**: Organización del código en varios módulos y clases, facilitando la mantenibilidad y la escalabilidad.
