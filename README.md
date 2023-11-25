@@ -65,7 +65,7 @@ Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos t�
 
 ## Resultados:
 
-![code vs](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a
+![code_vs](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a
 
 ### Desarrollo de la Base de Código
 - **Estructura del Proyecto**: Organización del código en varios módulos y clases, facilitando la mantenibilidad y la escalabilidad.
