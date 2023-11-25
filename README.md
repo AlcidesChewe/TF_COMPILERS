@@ -8,21 +8,33 @@ La presente introducción forma parte del informe final para el curso de Teoría
 
 ## Objetivos:
 
-El propósito de este proyecto es diseñar e implementar una **shell personalizada** que funcione como un intérprete de comandos para sistemas operativos. Los objetivos específicos son:
+Los objetivos para el desarrollo de la shell personalizada, utilizando ANTLR4 y C++, se detallan a continuación con terminología técnica específica:
 
-- **Diseño de Lenguaje de Scripting**: Construir un lenguaje de scripting básico que incorpore estructuras de control como bucles y condicionales, manejo de variables y listas, permitiendo la ejecución de scripts complejos.
+1. **Diseño de Lenguaje de Scripting**:
+   - Desarrollar un lenguaje de scripting robusto con gramática definida en ANTLR4.
+   - Incorporar estructuras de control como bucles (`for`, `while`), condicionales (`if`, `else`), operaciones lógicas, etc.
+   - Facilitar la declaración y manipulación de variables y colecciones de datos.
 
-- **Modo Headless**: Desarrollar la capacidad de la shell para ejecutar scripts en un modo *headless*, es decir, sin una interfaz de usuario gráfica, lo que permite su uso en sistemas automatizados y entornos de servidor.
+2. **Implementación de Modo Headless**:
+   - Habilitar ejecución de scripts sin interacción del usuario, adecuado para la automatización de tareas y entornos de CI/CD.
+   - Permitir que la shell actúe como un intérprete que puede ser invocado por aplicaciones externas o por cron jobs.
 
-- **Gestión de Variables de Entorno**: Implementar un sistema robusto para el manejo de variables de entorno que permita tanto la recuperación como la asignación de valores, facilitando la personalización y configuración del entorno de ejecución de la shell.
+3. **Gestión de Variables de Entorno**:
+   - Implementar funcionalidades para el establecimiento y recuperación de variables de entorno, así como su persistencia entre sesiones.
+   - Dotar a la shell de mecanismos para la configuración dinámica del entorno de ejecución.
 
-- **Acceso a Comandos del Sistema**: Integrar un mecanismo para invocar comandos del sistema operativo desde la shell, proporcionando una interfaz unificada para la ejecución de tareas del sistema.
+4. **Integración de Comandos del Sistema**:
+   - Proveer un puente entre el lenguaje de scripting y el sistema operativo para ejecutar comandos nativos y scripts externos.
+   - Utilizar la API de sistemas de C++ para invocar y controlar procesos subyacentes.
 
-- **Modo Interactivo con Prompt Personalizado**: Desarrollar un modo interactivo que ofrezca a los usuarios un *prompt* personalizable, mejorando la experiencia de usuario mediante la visualización de información relevante sobre el contexto de ejecución actual.
+5. **Desarrollo de Modo Interactivo con Prompt Personalizado**:
+   - Diseñar una interfaz de usuario interactiva con un prompt que pueda ser personalizado con información del contexto de ejecución.
+   - Incorporar un sistema de lectura-evaluación-impresión (REPL) que soporte autocompletado y sugerencias de comandos.
 
-- **Característica Adicional**: Investigar y seleccionar una característica adicional avanzada que enriquezca la funcionalidad de la shell, como podrían ser sugerencias automáticas de comandos, historial de comandos ejecutados o coloración sintáctica.
+6. **Innovación con Característica Adicional**:
+   - Investigar y seleccionar una característica innovadora que aporte valor añadido a la experiencia del usuario, como coloración sintáctica, historial de comandos con búsqueda, o integración con herramientas de terceros.
 
-Estos objetivos buscan abordar los desafíos de interpretación y ejecución de comandos a través de una interfaz de línea de comandos y ofrecer una experiencia de usuario mejorada en la interacción con el sistema operativo. La realización de estos objetivos se traducirá en un entendimiento más amplio y aplicado de la teoría de compiladores y sus aplicaciones prácticas en el campo de la informática.
+Estos objetivos están diseñados para explorar de manera integral la aplicación de la teoría de compiladores y las prácticas de desarrollo de software en la creación de herramientas de línea de comandos avanzadas.
 
 
 
