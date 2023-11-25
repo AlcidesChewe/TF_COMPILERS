@@ -105,4 +105,4 @@ Al concluir la fase de desarrollo del proyecto de la shell personalizada para el
 
 En resumen, este proyecto ha cumplido con su propósito educativo al proporcionar una plataforma para la aplicación práctica de conocimientos teóricos, y aunque quedan desafíos por superar, los logros obtenidos hasta ahora auguran un futuro prometedor para el trabajo continuo en esta shell personalizada.
 
-#Link de la exposicion: https://youtu.be/mWeU_4d48_8
+# Link de la exposicion: https://youtu.be/mWeU_4d48_8
