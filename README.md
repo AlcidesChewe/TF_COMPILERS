@@ -88,5 +88,19 @@ Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos t�
 
 Estos resultados reflejan los avances considerables del equipo en la aplicación de conceptos teóricos a desafíos prácticos de desarrollo de software, sentando las bases para futuras mejoras y la eventual finalización de la shell personalizada.
 
+## Conclusiones Finales
 
-## Conclusiones:
+Al concluir la fase de desarrollo del proyecto de la shell personalizada para el curso de Teoría de Compiladores, podemos destacar varios puntos clave:
+
+- **Aplicación Práctica de la Teoría**: El proyecto ha demostrado ser una aplicación práctica exitosa de los principios de compiladores y lenguajes de programación. A través del desarrollo de una gramática específica y su implementación en ANTLR4 y C++, hemos obtenido una comprensión más profunda de la teoría de compilación y su relevancia en la creación de herramientas de software.
+
+- **Desarrollo de Habilidades Técnicas**: Los miembros del equipo han reforzado sus habilidades en áreas críticas como la programación en C++, el diseño de lenguajes de scripting y la utilización de herramientas de compilación. La capacidad de traducir especificaciones de gramática en código ejecutable ha sido una experiencia de aprendizaje invaluable.
+
+- **Resolución de Problemas y Depuración**: A pesar de que la compilación final no se completó con éxito, el proceso de depuración y resolución de problemas ha sido en sí mismo una lección en la importancia de la perseverancia y la metodología sistemática en el desarrollo de software.
+
+- **Trabajo en Equipo y Gestión de Proyectos**: El proyecto ha fomentado el desarrollo de competencias de trabajo en equipo, comunicación efectiva y gestión de proyectos dentro de un contexto técnico complejo. Estas habilidades son esenciales para la carrera de cualquier ingeniero de software.
+
+- **Bases para Futuras Mejoras**: Si bien no se logró una shell completamente funcional, se han establecido las bases sólidas para futuras iteraciones. Con el código ya desarrollado, los próximos pasos incluyen la depuración de problemas de compilación, la ampliación de la funcionalidad y la mejora de la interfaz de usuario.
+
+En resumen, este proyecto ha cumplido con su propósito educativo al proporcionar una plataforma para la aplicación práctica de conocimientos teóricos, y aunque quedan desafíos por superar, los logros obtenidos hasta ahora auguran un futuro prometedor para el trabajo continuo en esta shell personalizada.
+
