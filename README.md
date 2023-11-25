@@ -1,12 +1,12 @@
 # TF_COMPILERS u202021294 u201922128
 
-## Integrantes
+## 1. Integrantes
 ### -Alcides Rommel Charapaqui Reluz u202021294
 ### -Daniel Ulises Barrionuevo Gutierrez u201922128
 ## Introduccion 
 La presente introducción forma parte del informe final para el curso de Teoría de Compiladores, donde se documenta el diseño y la implementación de una shell personalizada. Este proyecto integra conceptos fundamentales de la interpretación de comandos y scripting, proporcionando un entorno interactivo que sirve como interfaz entre el usuario y el sistema operativo. El objetivo central ha sido crear una herramienta que no solo cumpla con los requisitos técnicos de la asignatura, sino que también promueva una comprensión más profunda de la teoría subyacente en la construcción de intérpretes y su relación con la interfaz de comandos de los sistemas. A través de este trabajo, buscamos demostrar una aplicación práctica de los principios de compilación y teoría de lenguajes de programación, culminando en una shell funcional con capacidades de scripting, ejecución de comandos y una serie de características avanzadas como el modo headless y la personalización del entorno de la shell.
 
-## Objetivos:
+## 2. Objetivos:
 
 Los objetivos para el desarrollo de la shell personalizada, utilizando ANTLR4 y C++, se detallan a continuación con terminología técnica específica:
 
@@ -36,7 +36,7 @@ Los objetivos para el desarrollo de la shell personalizada, utilizando ANTLR4 y 
 
 Estos objetivos están diseñados para explorar de manera integral la aplicación de la teoría de compiladores y las prácticas de desarrollo de software en la creación de herramientas de línea de comandos avanzadas.
 
-## Metodología:
+## 3. Metodología:
 
 El desarrollo de la shell personalizada se ha estructurado en varias etapas estratégicas, cada una con objetivos claros y enfoques metodológicos específicos:
 
@@ -63,7 +63,7 @@ El desarrollo de la shell personalizada se ha estructurado en varias etapas estr
 
 Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos técnicos y de usuario del proyecto, asegurando que el producto final sea robusto, funcional y alineado con las necesidades de los usuarios finales.
 
-## Resultados:
+## 4. Resultados:
 
 ![code_vs](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a3d5784.png?ex=65747df3&is=656208f3&hm=c9d9b364c8489f0b502a66eca964a81b372852d1b8f9bce474d267ab6eb7ff23&)
 
@@ -88,7 +88,7 @@ Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos t�
 
 Estos resultados reflejan los avances considerables del equipo en la aplicación de conceptos teóricos a desafíos prácticos de desarrollo de software, sentando las bases para futuras mejoras y la eventual finalización de la shell personalizada.
 
-## Conclusiones Finales
+## 5. Conclusiones Finales
 
 Al concluir la fase de desarrollo del proyecto de la shell personalizada para el curso de Teoría de Compiladores, podemos destacar varios puntos clave:
 
