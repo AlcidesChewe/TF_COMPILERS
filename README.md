@@ -36,10 +36,57 @@ Los objetivos para el desarrollo de la shell personalizada, utilizando ANTLR4 y 
 
 Estos objetivos están diseñados para explorar de manera integral la aplicación de la teoría de compiladores y las prácticas de desarrollo de software en la creación de herramientas de línea de comandos avanzadas.
 
+## Metodología:
 
+El desarrollo de la shell personalizada se ha estructurado en varias etapas estratégicas, cada una con objetivos claros y enfoques metodológicos específicos:
 
-## Metodologia:
+### Fase 1: Análisis y Diseño
+- **Comparativa de Shells Existentes**: Evaluación crítica de shells como Bash, Zsh y Fish para extrapolar funcionalidades clave y paradigmas de diseño.
+- **Especificación de Requisitos**: Identificación precisa de las funcionalidades y caracteristicas que debe cumplir la shell, utilizando técnicas como casos de uso y diagramas de flujo.
+- **Planificación**: Elaboración de un roadmap del proyecto con milestones específicos, asignación de responsabilidades y establecimiento de deadlines.
+
+### Fase 2: Diseño de la Gramática y Pruebas con ANTLR
+- **Definición de la Gramática en ANTLR4**: Utilización del poder expresivo de ANTLR4 para formular una gramática LL(*) que defina la sintaxis de nuestro lenguaje de scripting.
+- **Iteraciones de Pruebas y Depuración**: Testeo intensivo de la gramática con casos de prueba representativos y ajuste fino mediante debugging iterativo.
+
+### Fase 3: Implementación del Core de la Shell en C++
+- **Desarrollo del Intérprete**: Programación en C++ del núcleo de la shell, aprovechando las bibliotecas estándar y técnicas de programación orientada a objetos para la gestión de la lógica de interpretación.
+- **Integración del Sistema de Comandos**: Implementación de la interfaz de comando para ejecutar operaciones del sistema y scripts, utilizando la API de proceso de C++ y técnicas de interacción entre procesos.
+
+### Fase 4: Implementación del Modo Interactivo y Pruebas de Usuario
+- **Construcción del REPL**: Desarrollo del Read-Eval-Print Loop para el modo interactivo, integrando características como el autocompletado y la personalización del prompt.
+- **Validación de la Usabilidad**: Realización de pruebas de usabilidad para optimizar la experiencia del usuario, recopilando y analizando feedback para iterar sobre la interfaz de usuario.
+
+### Fase 5: Documentación y Despliegue
+- **Documentación Técnica**: Creación de una documentación detallada, incluyendo manuales de usuario, documentación inline en el código y comentarios de API.
+- **Preparativos para la Entrega**: Configuración de los procedimientos de build y despliegue, asegurando que la shell esté lista para su distribución y evaluación.
+
+Cada fase ha sido diseñada para garantizar que se aborden todos los aspectos técnicos y de usuario del proyecto, asegurando que el producto final sea robusto, funcional y alineado con las necesidades de los usuarios finales.
 
 ## Resultados:
+
+[!Code Visual Studio](https://cdn.discordapp.com/attachments/1159637113541759146/1177983849733570560/9da9f691-35d5-445c-9e9b-56fd3a3d5784.png?ex=65747df3&is=656208f3&hm=c9d9b364c8489f0b502a66eca964a81b372852d1b8f9bce474d267ab6eb7ff23&)
+
+### Desarrollo de la Base de Código
+- **Estructura del Proyecto**: Organización del código en varios módulos y clases, facilitando la mantenibilidad y la escalabilidad.
+- **Intérprete de Comandos**: Creación de un intérprete básico que puede procesar y responder a comandos sencillos como `echo`.
+
+### Implementación de la Gramática
+- **ANTLR4**: Definición de la gramática necesaria para la interpretación de los comandos, utilizando ANTLR4 para generar el lexer y el parser correspondientes.
+- **Visitors**: Implementación de las clases visitor en C++ para ejecutar la lógica específica asociada con cada comando y estructura de control parseados.
+
+### Funcionalidades de la Shell
+- **Comandos básicos**: Desarrollo parcial de comandos como `echo`, preparando el terreno para la inclusión de comandos más complejos.
+- **Estructuras de Control**: Iniciación de la lógica para manejar estructuras de control, como se evidencia en la funcionalidad de evaluación de expresiones para estructuras `if`.
+
+### Interfaz de Usuario
+- **Interactividad**: Preparación del código para manejar la entrada del usuario en un modo interactivo, con un prompt definido y la capacidad para recibir y procesar comandos.
+
+### Reflexión y Aprendizaje
+- **Comprensión Profunda**: A través del desarrollo, el equipo ha obtenido una comprensión profunda de los principios de teoría de compiladores, especialmente en la creación de lenguajes de scripting y la interpretación de comandos.
+- **Habilidades Técnicas**: Mejora de las habilidades técnicas en programación C++, manejo de herramientas de generación de código como ANTLR4 y uso de entornos de desarrollo integrado (IDE) modernos.
+
+Estos resultados reflejan los avances considerables del equipo en la aplicación de conceptos teóricos a desafíos prácticos de desarrollo de software, sentando las bases para futuras mejoras y la eventual finalización de la shell personalizada.
+
 
 ## Conclusiones:
